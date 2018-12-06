@@ -11,10 +11,12 @@ Neighborhood:
 -Pentagonal random
 
 Boundary conditions:
+
 -Periodic
 -Non periodic
 
 Grain draw:
+
 -Random
 -Evenly
 -By click
