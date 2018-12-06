@@ -1,6 +1,8 @@
 # GrainGrowth
 Grain growth algorithm in 2D - JavaFX
+
 Neighborhood:
+
 -von neumann
 -Moore
 -Heksagonal left
