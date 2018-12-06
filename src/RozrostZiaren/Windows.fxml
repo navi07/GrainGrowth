@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RozrostZiaren.Controller">
+   <children>
+      <TextField fx:id="tf_rows" layoutX="48.0" layoutY="559.0" prefHeight="15.0" prefWidth="60.0" />
+      <TextField fx:id="tf_columns" layoutX="181.0" layoutY="559.0" prefHeight="15.0" prefWidth="60.0" />
+      <Button fx:id="button_draw" layoutX="805.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleButtonDraw" prefHeight="30.0" prefWidth="80.0" text="Draw" />
+      <Label layoutX="14.0" layoutY="563.0" text="Rows" />
+      <Label layoutX="254.0" layoutY="563.0" text="Number of cells" />
+      <TextField fx:id="tf_cells" layoutX="344.0" layoutY="559.0" prefHeight="15.0" prefWidth="60.0" />
+      <Button fx:id="button_pause" layoutX="710.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleButtonPause" prefHeight="30.0" prefWidth="80.0" text="Pause" />
+      <ComboBox fx:id="cb_method" layoutX="735.0" layoutY="32.0" prefWidth="150.0" />
+      <ComboBox fx:id="cb_generatorType" layoutX="735.0" layoutY="98.0" prefWidth="150.0" />
+      <Label layoutX="735.0" layoutY="7.0" text="Method" />
+      <Label layoutX="735.0" layoutY="75.0" text="Seed generator type" />
+      <Label layoutX="124.0" layoutY="563.0" text="Columns" />
+      <Label layoutX="735.0" layoutY="142.0" prefHeight="17.0" prefWidth="156.0" text="Boundary conditions" />
+      <ComboBox fx:id="cb_boundaryCondition" layoutX="735.0" layoutY="166.0" prefWidth="150.0" />
+      <Canvas fx:id="canvas" height="520.0" layoutX="14.0" layoutY="18.0" width="700.0" />
+      <Label layoutX="416.0" layoutY="562.0" text="Iterations" />
+      <TextField fx:id="tf_generations" layoutX="472.0" layoutY="558.0" prefHeight="15.0" prefWidth="60.0" />
+      <Button fx:id="button_set" layoutX="735.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleButtonSet" prefHeight="30.0" prefWidth="150.0" text="Set parameters" />
+      <Label layoutX="736.0" layoutY="202.0" text="Animation length" />
+      <TextField fx:id="tf_animationLength" layoutX="735.0" layoutY="229.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
